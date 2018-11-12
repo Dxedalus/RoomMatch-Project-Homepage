@@ -1,0 +1,144 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background: url(img/531921628-612x612.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.Column {
+    margin: 3px;
+    min-height: 300px;
+    background-color: white;
+    text-align: center;
+    font-size: large
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Quicksand;
+}
+
+.nav {
+    padding: 25px;
+    width: 100%;
+    background-color: lightblue;
+    font-weight: bold;
+    transition: .3s;
+    position: -webkit-sticky;
+}
+
+/*nav.black {
+    background: rgba(0, 0, 0, 0, 8);
+    height: 100px;
+    padding 10px 100px;
+
+}
+
+nav .logo {
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    transition: .3s;
+
+}
+
+nav.black .logo {
+    color: #ffff;
+
+}*/
+
+.nav ul {
+    text-align: right;
+    margin: 0;
+    display: flex
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 3em;
+    line-height: 3em;
+}
+
+/*nav ul li a {
+    line-height: 80px;
+    color: #151515;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+nav.black ul li a {
+    color: #fff;
+
+}
+
+nav ul li a: focus {
+    outline: none;
+
+}
+
+
+nav ul li a.active {
+    background: #E2472F;
+    color: #fff;
+    border-radius: 6px
+}
+
+section.sec1 {
+    width: 100%;
+    height: 100vh;
+
+
+}
+
+.content {
+    margin-top: 80px;
+}
+*/
+
+.nav ul li:hover{
+    background: #00939c;
+}
+
+.content {
+    width: 600px;
+    margin: 10px auto 100px;
+}
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}
+/*.icon-bar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+*/
